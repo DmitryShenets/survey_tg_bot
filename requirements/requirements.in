@@ -1,0 +1,6 @@
+aiogram==2.13.0
+aioredis==2.0.1
+loguru==0.7.0
+hiredis==2.2.3
+pip-compile-multi==2.6.3
+python-dotenv==1.0.0
