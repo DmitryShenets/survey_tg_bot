@@ -1,0 +1,36 @@
+### VisualStudioCode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+
+# Local History for Visual Studio Code
+.history/
+
+# Built Visual Studio Code Extensions
+*.vsix
+
+### VisualStudioCode Patch ###
+# Ignore all local history of files
+.history
+.ionide
+
+*.log
+*.pot
+*.pyc
+__pycache__/
+.coverage
+.coverage.*
+.cache
+.pytest_cache/
+env/
+venv/
+my_text/
+my_test/
+db.yaml
+.isort.cfg
+.flake8
+.env
+*.drawio
