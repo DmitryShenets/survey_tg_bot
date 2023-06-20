@@ -32,5 +32,4 @@ my_test/
 db.yaml
 .isort.cfg
 .flake8
-.env
 *.drawio
