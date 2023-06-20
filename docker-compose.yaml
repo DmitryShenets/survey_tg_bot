@@ -1,0 +1,19 @@
+version: "3.9"
+services:
+  redis:
+    image: redis:alpine
+    entrypoint: redis-server
+    # ports:
+    #   - 6379:6379
+    # expose:
+    #   - 6379
+    # env_file:
+    #   - .env
+
+  bot:
+    build: .
+    restart: always
+    env_file:
+      - .env
+    depends_on:
+      - redis
